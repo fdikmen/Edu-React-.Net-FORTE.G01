@@ -30,11 +30,13 @@ Extensions;
 - Default Props
 - Constructor
 - Styles
-- arrow function
-- event binding
-- state
-- class - function component
-- 
+- arrow function |  (params)=>{...codes...}
+- DOM & Events
+- Event binding
+- State
+- class vs function component
+- HOOKS : useState
+- const - let - var
 
 
 LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?0FA197B479781227A5BB3C28DFEA1902AB5C

@@ -1,0 +1,12 @@
+.title{
+    color: red;
+    font-size: 50px;
+}
+#customButton{
+    color: blue;
+    font-size: 30px;
+}
+label{
+    color: green;
+    font-size: 20px;
+}
