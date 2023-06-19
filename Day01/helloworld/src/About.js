@@ -3,7 +3,9 @@
 import React from 'react'
 
 export default function About() {
+    // JS Codes here
   return (
+    // JSX Codes
     <div>About
         <h2>
          is a simple example of React Component
