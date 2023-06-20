@@ -1,5 +1,5 @@
 //rfc snippet
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 //FUNCTIONAL COMPONENT = STATELESS COMPONENT
 
 export default function BlogItemDetailV2(props) {

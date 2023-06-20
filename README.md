@@ -2,7 +2,7 @@
 
 ## 190623 Day01
 
-- React, Component, JSX, VirtualDOM
+- React, Component, JSX, VirtualDOM-Dif.Alg.
 - NodeJS - VSCode <br/>
 Extensions; 
     - ES7+ React/Redux/React-Native for snippets
@@ -13,8 +13,8 @@ Extensions;
 - Folder Structure
 - package.json
 - Deleting unnecessary files
-- Create first Component
-- Import-Export-Default
+- Create first Component - rfc || rcc 
+- Import-Export-Default-as
 - npm - npx - yarn
     - npm install [packageName]
     - npm uninstall [packageName]
@@ -22,7 +22,7 @@ Extensions;
     - npm run start = npm start = react-scripts start
 - tsx js jsx
 - class - func comp
-- jsx vs html
+- jsx vs html => className - htmlFor - onClick|onSubmit|...
 - React.Fragment => <> ... </>
 - props
 - React Developer Tools
@@ -38,5 +38,16 @@ Extensions;
 - HOOKS : useState
 - const - let - var
 
+## 200623 Day02
 
-LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?0FA197B479781227A5BB3C28DFEA1902AB5C
+- Summary
+- Phone Book With Class Component
+- Phone Book With Functional Component
+- Life Cycle Methods
+- Hooks: Life Cycle Methods with Functional Component
+- Class vs Function Comp
+- Fetch
+- Axios 
+
+
+LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?C69F629281354B81207A6C646A305E4B1493
