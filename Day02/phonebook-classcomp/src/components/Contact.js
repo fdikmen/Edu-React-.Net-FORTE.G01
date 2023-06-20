@@ -24,7 +24,7 @@ addContact = (contact) => {
   render() {
     return (
       <div>
-        <h1>Phonebook</h1>
+        <h1 style={{textAlign:'center'}}>Phonebook</h1>
         <List contacts={this.state.contacts} />
         <Form addContact={this.addContact} />
       </div>
