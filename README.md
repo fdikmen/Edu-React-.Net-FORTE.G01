@@ -41,7 +41,13 @@ Extensions;
 ## 200623 Day02
 
 - Summary
+- PORT KILL => https://medium.com/@fdikmen/react-nativede-port-%C3%A7ak%C4%B1%C5%9Fmas%C4%B1-sorunu-ve-%C3%A7%C3%B6z%C3%BCm%C3%BC-10d2306acaec
 - Phone Book With Class Component
+    - npx create-react-app phonebook-classcomp
+    - cd phonebook-classcomp && npm start
+    - CTRL + C --> STOP PROJECT
+- "use strict"; => <React.StrictMode> ... </React.StrictMode>
+- array.Map => key, indexOf, array.filter
 - Phone Book With Functional Component
 - Life Cycle Methods
 - Hooks: Life Cycle Methods with Functional Component
