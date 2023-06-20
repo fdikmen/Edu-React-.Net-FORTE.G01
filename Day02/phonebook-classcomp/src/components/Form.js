@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 
 export default class Form extends Component {
     state = {
-        username: '',
-        userphone: ''
+        name: '',
+    phone: ''
     }
   render() {
     /*const handleChangeName = (event) => {
@@ -28,11 +28,13 @@ export default class Form extends Component {
     const handleSubmit = (event) => {
         event.preventDefault() // prevent page refresh
         console.log("SUBMIT Event=>",event.target.value)
+        this.props.addContact(this.state)
+        this.setState({name:'',phone:''})
     }
     return (
-      <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Name..." name='username' onChange={handleChange} />
-        <input type="text" placeholder="Phone..." name='userphone' onChange={handleChange} />
+      <form onSubmit={handleSubmit} className='FormComponent'>
+        <input type="text" placeholder="Name..." name='name' value={this.state.name} onChange={handleChange} />
+        <input type="text" placeholder="Phone..." name='phone' value={this.state.phone} onChange={handleChange} />
         <button type='submit'>Add</button>
       </form>
     )

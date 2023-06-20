@@ -47,7 +47,7 @@ Extensions;
     - cd phonebook-classcomp && npm start
     - CTRL + C --> STOP PROJECT
 - "use strict"; => <React.StrictMode> ... </React.StrictMode>
-- array.Map => key, indexOf, array.filter
+- array.Map => key, indexOf, array.filter, array.Push, spreadOperator ...
 - Phone Book With Functional Component
 - Life Cycle Methods
 - Hooks: Life Cycle Methods with Functional Component

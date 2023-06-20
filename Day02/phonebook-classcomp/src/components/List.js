@@ -20,16 +20,27 @@ export default class List extends Component {
         })
 
         return (
-            <div>
+            <div className='ListComponent'>
                 <input type="text" placeholder="Filter Contacts..." onChange={handleChange} />
+               <ul>
                 {
                     filteredContacts.map((contact, index) => (
-                        <div key={index + 1}>
-                            {contact.name} - {contact.phone}
-                        </div>
+                        <li key={index + 1}>
+                            <span>{contact.name}</span>
+                            <span>{contact.phone}</span>
+                        </li>
+                        
                     ))
                 }
+               </ul>
             </div>
         )
     }
 }
+
+//arrow function
+
+//const myFunc = function(parms){return parms}
+
+//const myFunc = (parms) => {return parms}
+//const myFunc = (parms) =>  parms
