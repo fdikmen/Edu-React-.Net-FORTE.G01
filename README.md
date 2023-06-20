@@ -47,13 +47,23 @@ Extensions;
     - cd phonebook-classcomp && npm start
     - CTRL + C --> STOP PROJECT
 - "use strict"; => <React.StrictMode> ... </React.StrictMode>
-- array.Map => key, indexOf, array.filter, array.Push, spreadOperator ...
+- array.Map => key, indexOf, array.filter, array.Push, spreadOperator ..., object destructuring
 - Phone Book With Functional Component
-- Life Cycle Methods
+- Life Cycle Methods (https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+    - constructor
+    - componentDidMount
+    - componentDidUpdate
+    - componentWillUnmount
+    - shouldComponentUpdate
 - Hooks: Life Cycle Methods with Functional Component
+    - Hooks:useEffect
+    - callbackFunction
 - Class vs Function Comp
-- Fetch
-- Axios 
+- Fetch => https://jsonplaceholder.typicode.com/
+- HTTP METHODS: GET, POST, PUT, DELETE  => POSTMAN for API test
+- Axios
+    - npm install axios
+- PROMISE().then(...).catch(...).finally(...);
 
 
 LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?781B956533250999EFFB82B488AD5C2F7782
