@@ -88,8 +88,14 @@ Extensions;
 5. Advanced Components
 - Higher Order Components (HOC)
 - Resuable Higher Order Components
-- Pure Component
+- Pure Component (like shouldComponentUpdate)
+- setTimeout
 6. Redux
-7. ContextAPI
+- npm i redux
 
 LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?553E037E379C40746B97FA07F05BCAB06D0A
+
+
+## 220623 Day04
+
+AxiosInstance - Folder Str - ContextAPI
