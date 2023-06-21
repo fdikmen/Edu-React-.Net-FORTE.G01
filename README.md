@@ -22,7 +22,7 @@ Extensions;
     - npm run start = npm start = react-scripts start
 - tsx js jsx
 - class - func comp
-- jsx vs html => className - htmlFor - onClick|onSubmit|...
+- jsx vs html => className - htmlFor - onClick|onSubmit|... (lowerCamelCase)
 - React.Fragment => <> ... </>
 - props
 - React Developer Tools
@@ -30,7 +30,7 @@ Extensions;
 - Default Props
 - Constructor
 - Styles
-- arrow function |  (params)=>{...codes...}
+- arrow function |  (params)=>{return ...codes...} || (params)=> ...codes...
 - DOM & Events
 - Event binding
 - State
@@ -47,23 +47,31 @@ Extensions;
     - cd phonebook-classcomp && npm start
     - CTRL + C --> STOP PROJECT
 - "use strict"; => <React.StrictMode> ... </React.StrictMode>
-- array.Map => key, indexOf, array.filter, array.Push, spreadOperator ..., object destructuring
+- array.Map => key, indexOf, array.filter, array.push, spreadOperator ..., object destructuring
 - Phone Book With Functional Component
 - Life Cycle Methods (https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
     - constructor
     - componentDidMount
     - componentDidUpdate
     - componentWillUnmount
-    - shouldComponentUpdate
+    - shouldComponentUpdate return true/false
 - Hooks: Life Cycle Methods with Functional Component
     - Hooks:useEffect
     - callbackFunction
 - Class vs Function Comp
-- Fetch => https://jsonplaceholder.typicode.com/
+- Fetch => https://jsonplaceholder.typicode.com/  => result.json()
 - HTTP METHODS: GET, POST, PUT, DELETE  => POSTMAN for API test
 - Axios
     - npm install axios
 - PROMISE().then(...).catch(...).finally(...);
 
 
-LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?781B956533250999EFFB82B488AD5C2F7782
+
+## 210623 Day03
+1. Summary
+2. Axios
+3. Routing
+4. Redux
+5. ContextAPI
+
+LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?6B28B6AF91AFEED5B07EDD55F6B578BB621D
