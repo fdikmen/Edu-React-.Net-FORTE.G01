@@ -1,6 +1,6 @@
 # Edu-React-.Net-FORTE.G01
 
-# Click [Here](https://www.youtube.com/watch?v=HGjeynbarXk&list=PLs7UH425TlBoRLbez-DvAzbuQKXSLv9gU){:target="_blank"} for Videos
+# Click [Here](https://www.youtube.com/watch?v=HGjeynbarXk&list=PLs7UH425TlBoRLbez-DvAzbuQKXSLv9gU) {:target="_blank"} for Videos
 
 ## 190623 Day01
 
