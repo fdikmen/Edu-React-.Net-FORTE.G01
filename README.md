@@ -70,8 +70,26 @@ Extensions;
 ## 210623 Day03
 1. Summary
 2. Axios
-3. Routing
-4. Redux
-5. ContextAPI
+3. Loading
+- clear(macos-linux) - cls(windows)
+4. Routing
+- npm i react-router-dom
+- import & using BrowserRouter (index.js)
+- Link (to->path)
+- Link style
+- Routes-Route (path , element->components||JSX code)
+    - No match -> * , index
+- Multiple Route
+- Sending Params && useParams() || windows.location.pathname => TEXT.split("/").pop()
+- Navlink
+- Central Route File
+- Nested Route
+- Any Text => *
+5. Advanced Components
+- Higher Order Components (HOC)
+- Resuable Higher Order Components
+- Pure Component
+6. Redux
+7. ContextAPI
 
-LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?6B28B6AF91AFEED5B07EDD55F6B578BB621D
+LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?553E037E379C40746B97FA07F05BCAB06D0A
