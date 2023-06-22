@@ -93,6 +93,12 @@ Extensions;
 ## 220623 Day04
 1. Summary
 2. Redux
+- Reducer(state,action) || ReducerSlice
+- Store(reducer)
+- subscribe
+- ...getState()
+- action object => {type,payload}
+- dispatch(action)
 3. [RTK - Redux Toolkit - Modern Redux](https://medium.com/@fdikmen/redux-toolkit-ile-modern-redux-kullanımı-5b59f8055da6)
 4. [RTK Template](https://redux.js.org/tutorials/essentials/part-2-app-structure)
 ```
