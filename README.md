@@ -102,17 +102,26 @@ Extensions;
 3. [RTK - Redux Toolkit - Modern Redux](https://medium.com/@fdikmen/redux-toolkit-ile-modern-redux-kullanımı-5b59f8055da6)
 - Redux DevTools
 - npm i [...packagename01...] [...packagename02...] [...packagename03...]
+- Thunk
 4. [RTK Template](https://redux.js.org/tutorials/essentials/part-2-app-structure)
 ```
 npx create-react-app [my-app] --template redux
 ```
 5. Counter App with Redux Toolkit
+- HigherOrderFunction => export const newMethod = (...) => (dispatch, getState) => {...};
 6. [Folder Structure Sample for React Redux](https://medium.com/@fdikmen/a-redux-toolkit-project-structure-guide-58093baa88a5)
 7. Context API
-8. [mockApi.io](https://mockapi.io)
-9. Final Project: MovieApp
--   Axios Instance
+- User Authentication, Theme Switching, Language/Currency Switching, User Profile,...
+- Redux + ContextAPI
+8. useRef => Other Hooks:useState, useEffect, useRef, useContext
+9. [mockApi.io](https://mockapi.io)
+10. Isomorphic - SSR - CRS
+11. NextJS Preview
+
+## 230623 Day05
+1. Summary
+
+Build || FolderStructure || FinalProject || Axios Instance
+
 
 LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?84DDA897E927F5D908C125AD375024B710AF
-
-NextJS || Build
