@@ -100,6 +100,8 @@ Extensions;
 - action object => {type,payload}
 - dispatch(action)
 3. [RTK - Redux Toolkit - Modern Redux](https://medium.com/@fdikmen/redux-toolkit-ile-modern-redux-kullanımı-5b59f8055da6)
+- Redux DevTools
+- npm i [...packagename01...] [...packagename02...] [...packagename03...]
 4. [RTK Template](https://redux.js.org/tutorials/essentials/part-2-app-structure)
 ```
 npx create-react-app [my-app] --template redux
@@ -113,4 +115,4 @@ npx create-react-app [my-app] --template redux
 
 LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?91BAB098746C9E65CAA2E36EA0DC53962199
 
-NextJS
+NextJS || Build
