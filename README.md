@@ -113,6 +113,6 @@ npx create-react-app [my-app] --template redux
 9. Final Project: MovieApp
 -   Axios Instance
 
-LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?91BAB098746C9E65CAA2E36EA0DC53962199
+LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?84DDA897E927F5D908C125AD375024B710AF
 
 NextJS || Build
