@@ -81,7 +81,7 @@ Extensions;
 - /:params Sending Params && useParams() || windows.location.pathname => TEXT.split("/").pop()
 - Central Route File
 - Nested Route => subpath /->X
-- Any Text => /staticText/*
+- Any Text => /__staticText__/*
 5. Advanced Components
 - Higher Order Components (HOC)
 - Resuable Higher Order Components
@@ -110,18 +110,22 @@ npx create-react-app [my-app] --template redux
 5. Counter App with Redux Toolkit
 - HigherOrderFunction => export const newMethod = (...) => (dispatch, getState) => {...};
 6. [Folder Structure Sample for React Redux](https://medium.com/@fdikmen/a-redux-toolkit-project-structure-guide-58093baa88a5)
-7. Context API
+7. Context API => createContext - useContext - ...xxx...Provider value=yyyy
 - User Authentication, Theme Switching, Language/Currency Switching, User Profile,...
 - Redux + ContextAPI
 8. useRef => Other Hooks:useState, useEffect, useRef, useContext
 9. [mockApi.io](https://mockapi.io)
-10. Isomorphic - SSR - CRS
+10. Isomorphic - SSR <= CSR
 11. NextJS Preview
 
 ## 230623 Day05
 1. Summary
+2. npx create-react-app finalproject --template redux
+3. Build
+4. Movie App
+- FolderStructure
 
-Build || FolderStructure || FinalProject || Axios Instance
+ Axios Instance
 
 
-LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?84DDA897E927F5D908C125AD375024B710AF
+LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?C33C0D546B62CF7AE0C406E48775733EA5E0
