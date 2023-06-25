@@ -1,69 +1,73 @@
 # Edu-React-.Net-FORTE.G01
 
-# Click [Here](https://www.youtube.com/watch?v=HGjeynbarXk&list=PLs7UH425TlBoRLbez-DvAzbuQKXSLv9gU) for Videos
+## Click [Here](https://www.youtube.com/watch?v=HGjeynbarXk&list=PLs7UH425TlBoRLbez-DvAzbuQKXSLv9gU) for Videos
 
 ## 190623 Day01
-- React, Component, JSX, VirtualDOM-Dif.Alg.
-- NodeJS - VSCode <br/>
-Extensions; 
+1. React, Component, JS, Virtual DOM-Dif.Alg.
+2. Development Tools: NodeJS - VSCode <br/>
+VSCode Extensions; 
     - ES7+ React/Redux/React-Native for snippets
     - ESLint for linting
     - Prettier - Code formatter for code formatter
-- Ecmascript
-- npx create-react-app [helloworld]  =>npm i create-react-app && create-react-app [helloworld]
-- Folder Structure
-- package.json
+3. Ecmascript
+4. First Project:
+```
+npx create-react-app [helloworld]
+```
+[Old Version]=> npm i create-react-app && create-react-app [helloworld]
+5. Folder Structure
 - Deleting unnecessary files
-- Create first Component - rfc || rcc 
-- Import-Export-Default-as
-- npm - npx - yarn
+6. package.json
+7. Create first Component - rfc || rcc 
+8. Import-Export-Default-as keywords
+9. npm - npx - yarn
     - npm install [packageName] || npm i [packageName]
     - npm uninstall [packageName]
     - npm run [...scripts...]
     - npm run start = npm start = react-scripts start
-- tsx js jsx
-- class - func comp
-- jsx vs html => className - htmlFor - onClick|onSubmit|... (lowerCamelCase) - style={{}}
-- <React.Fragment> ... </React.Fragment> => <> ... </>
-- props
-- React Developer Tools
+10. File Types: tsx js jsx
+11. Class vs Function component
+12. jsx vs html => className - htmlFor - onClick|onSubmit|... (lowerCamelCase) - style={{}}
+13. <React.Fragment> ... </React.Fragment> => <> ... </>
+14. props
 - PropTypes
 - Default Props
-- Constructor
-- Styles
-- arrow function |  (params)=>{return ...codes...} || (params)=> ...codes...
-- DOM & Events
+15. React Developer Tools
+16. Constructor
+17. Style in React
+18. ECMASCRIPT::: arrow function |  (params)=>{return ...codes...} || (params)=> ...codes...
+19. DOM & Events
 - Event binding
-- State
-- class vs function component
-- HOOKS : useState
-- const - let - var
+20. State
+21. class vs function component
+22. HOOKS : useState
+23. ECMASCRIPT::: const - let - var
 
 ## 200623 Day02
-- Summary
+1. Summary
 - PORT KILL => https://medium.com/@fdikmen/react-nativede-port-%C3%A7ak%C4%B1%C5%9Fmas%C4%B1-sorunu-ve-%C3%A7%C3%B6z%C3%BCm%C3%BC-10d2306acaec
-- Phone Book With Class Component
+2. Phone Book With Class Component
     - npx create-react-app phonebook-classcomp
     - cd phonebook-classcomp && npm start
     - CTRL + C --> STOP PROJECT
-- "use strict"; => <React.StrictMode> ... </React.StrictMode>
-- array.Map => key, indexOf, array.filter, array.push, spreadOperator ..., object destructuring
-- Phone Book With Functional Component
-- Life Cycle Methods (https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+3. "use strict"; => <React.StrictMode> ... </React.StrictMode>
+4. ECMASCRIPT::: array.Map => key, indexOf, array.filter, array.push, spreadOperator ..., object destructuring
+5. Phone Book With Functional Component
+6. Life Cycle Methods (https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
     - constructor
     - componentDidMount
     - componentDidUpdate
     - componentWillUnmount
     - shouldComponentUpdate return true/false
-- Hooks: Life Cycle Methods with Functional Component
+7. Hooks: Life Cycle Methods with Functional Component
     - Hooks:useEffect
     - callbackFunction
-- Class vs Function Comp
-- Fetch => https://jsonplaceholder.typicode.com/  => result.json()
+8. Class vs Function Comp
+9. Fetch => https://jsonplaceholder.typicode.com/  => result.json()
 - HTTP METHODS: GET, POST, PUT, DELETE  => POSTMAN for API test
-- Axios
+10. Axios
     - npm install axios
-- PROMISE().then(...).catch(...).finally(...);
+11. ECMASCRIPT::: PROMISE().then(...).catch(...).finally(...);
 
 ## 210623 Day03
 1. Summary
@@ -86,8 +90,8 @@ Extensions;
 - Higher Order Components (HOC)
 - Resuable Higher Order Components
 - Pure Component (like shouldComponentUpdate)
-- setTimeout(function, milliseconds); || setInterval(function, milliseconds);
-6. Redux
+6. ECMASCRIPT::: setTimeout(function, milliseconds); || setInterval(function, milliseconds);
+7. Redux
 - npm i redux
 
 ## 220623 Day04
@@ -123,9 +127,8 @@ npx create-react-app [my-app] --template redux
 2. npx create-react-app finalproject --template redux
 3. Build
 4. Movie App
-- FolderStructure
-
- Axios Instance
-
-
-LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?C33C0D546B62CF7AE0C406E48775733EA5E0
+- Folder Structure
+- Axios Instance
+- Redux
+5. .NET N-layer Project
+6. SOLID
